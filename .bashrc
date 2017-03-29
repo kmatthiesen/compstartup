@@ -1,17 +1,18 @@
-alias pgup="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\CompStartup\\\bashcommands\\\pgup.sh";
-alias pgdown="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\CompStartup\\\bashcommands\\\pgdown.sh";
-alias gadd="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\CompStartup\\\bashcommands\\\gadd.sh";
-alias gstat="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\CompStartup\\\bashcommands\\\gstat.sh";
-alias gco="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\CompStartup\\\bashcommands\\\gco.sh";
+alias pgup="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\pgup.sh";
+alias pgdown="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\pgdown.sh";
+alias gadd="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\gadd.sh";
+alias gstat="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\gstat.sh";
+alias gco="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\gco.sh";
 alias resource="source ~/.bashrc";
 alias dockerps="docker ps -a";
 alias ll="ls -al";
-alias dockerclean="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\CompStartup\\\bashcommands\\\dockerclean.sh";
-alias glast="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\CompStartup\\\bashcommands\\\glast.sh";
-alias gslist="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\CompStartup\\\bashcommands\\\gslist.sh";
-alias gstash="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\CompStartup\\\bashcommands\\\gstash.sh";
-alias gspop="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\CompStartup\\\bashcommands\\\gspop.sh";
-alias gsapply="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\CompStartup\\\bashcommands\\\gsapply.sh";
+alias dockerclean="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\dockerclean.sh";
+alias glast="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\glast.sh";
+alias gslist="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\gslist.sh";
+alias gstash="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\gstash.sh";
+alias gspop="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\gspop.sh";
+alias gsapply="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\gsapply.sh";
+alias dattach="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\dattach.sh";
 
 function PWD {
   pwd | awk -F\/ '{print $(NF-1)"\057"$(NF)}'
