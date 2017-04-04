@@ -1,1 +1,1 @@
-docker exec -i $1 /bin/bash.exe
+winpty docker exec -it $1 //bin/bash
