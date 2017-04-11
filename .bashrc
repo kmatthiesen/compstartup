@@ -13,6 +13,7 @@ alias gstash="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\co
 alias gspop="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\gspop.sh";
 alias gsapply="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\gsapply.sh";
 alias dattach="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\dattach.sh";
+alias grf="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\grf.sh";
 
 function PWD {
   pwd | awk -F\/ '{print $(NF-1)"\057"$(NF)}'
