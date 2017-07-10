@@ -16,6 +16,7 @@ alias dattach="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\c
 alias grf="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\grf.sh";
 alias mongoup="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\mongoup.sh";
 alias mongodown="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\mongodown.sh";
+alias pullall="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\pullall.sh";
 
 function PWD {
   pwd | awk -F\/ '{print $(NF-1)"\057"$(NF)}'
