@@ -17,6 +17,7 @@ alias grf="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\comps
 alias mongoup="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\mongoup.sh";
 alias mongodown="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\mongodown.sh";
 alias pullall="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\pullall.sh";
+alias gsummary="";
 
 function PWD {
   pwd | awk -F\/ '{print $(NF-1)"\057"$(NF)}'
