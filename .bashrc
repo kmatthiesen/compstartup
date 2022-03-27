@@ -1,22 +1,24 @@
-alias pgup="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\pgup.sh";
-alias pgdown="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\pgdown.sh";
-alias gadd="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\gadd.sh";
-alias gstat="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\gstat.sh";
-alias gco="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\gco.sh";
+basePath="C:\\\Users\\\round\\\code"
+
+alias pgup="${basePath}\\\compstartup\\\bashcommands\\\pgup.sh";
+alias pgdown="${basePath}\\\compstartup\\\bashcommands\\\pgdown.sh";
+alias gadd="${basePath}\\\compstartup\\\bashcommands\\\gadd.sh";
+alias gstat="${basePath}\\\compstartup\\\bashcommands\\\gstat.sh";
+alias gco="${basePath}\\\compstartup\\\bashcommands\\\gco.sh";
 alias resource="source ~/.bashrc";
 alias dockerps="docker ps -a";
 alias ll="ls -al";
-alias dockerclean="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\dockerclean.sh";
-alias glast="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\glast.sh";
-alias gslist="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\gslist.sh";
-alias gstash="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\gstash.sh";
-alias gspop="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\gspop.sh";
-alias gsapply="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\gsapply.sh";
-alias dattach="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\dattach.sh";
-alias grf="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\grf.sh";
-alias mongoup="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\mongoup.sh";
-alias mongodown="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\mongodown.sh";
-alias pullall="C:\\\Users\\\kmatthiesen\\\Desktop\\\Projects\\\Personal-Mini\\\compstartup\\\bashcommands\\\pullall.sh";
+alias dockerclean="${basePath}\\\compstartup\\\bashcommands\\\dockerclean.sh";
+alias glast="${basePath}\\\compstartup\\\bashcommands\\\glast.sh";
+alias gslist="${basePath}\\\compstartup\\\bashcommands\\\gslist.sh";
+alias gstash="${basePath}\\\compstartup\\\bashcommands\\\gstash.sh";
+alias gspop="${basePath}\\\compstartup\\\bashcommands\\\gspop.sh";
+alias gsapply="${basePath}\\\compstartup\\\bashcommands\\\gsapply.sh";
+alias dattach="${basePath}\\\compstartup\\\bashcommands\\\dattach.sh";
+alias grf="${basePath}\\\compstartup\\\bashcommands\\\grf.sh";
+alias mongoup="${basePath}\\\compstartup\\\bashcommands\\\mongoup.sh";
+alias mongodown="${basePath}\\\compstartup\\\bashcommands\\\mongodown.sh";
+alias pullall="${basePath}\\\compstartup\\\bashcommands\\\pullall.sh";
 alias gsummary="";
 
 function PWD {
